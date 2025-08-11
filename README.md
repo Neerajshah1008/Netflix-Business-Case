@@ -1,5 +1,5 @@
-# Insights based on Non-Graphical and Visual Analysis:
-## Insights Based on Non-Graphical Analysis:
+6.Insights based on Non-Graphical and Visual Analysis:
+Insights Based on Non-Graphical Analysis:
 1. Director and Cast Information:
 • By splitting the director and cast columns and analyzing them, we gain insights into
 the diversity and frequency of collaborations in the film industry.
@@ -22,73 +22,73 @@ making it easier to analyze trends over time.
 • Binning allows for a more structured analysis of how movie characteristics (like
 duration and rating) have changed over different periods.
 Insights Based on Visual Analysis:
-1. Distribution of Release Year:
+# 1. Distribution of Release Year:
 • The histogram and KDE plot of the release year show the frequency of movie releases
 over time.
 • Peaks in the distribution can indicate periods of high production activity, while troughs
 may indicate periods of lower activity.
-2. Box Plots:
+# 2. Box Plots:
 • Box plots for duration_minutes and release_year provide insights into the spread and
 central tendency of these variables.
 • Outliers identified in these plots can indicate unusual movie lengths or potentially
 erroneous data entries for release years.
-3. Correlation Heatmap:
+# 3. Correlation Heatmap:
 • The correlation heatmap shows the relationship between duration_minutes and
 release_year.
 • Understanding these correlations helps in identifying trends, such as whether newer
 movies tend to be longer or shorter.
-4. Pair Plots:
+# 4. Pair Plots:
 • Pair plots provide a comprehensive view of the relationships between numerical
 variables.
 • Scatter plots within the pair plot can reveal linear or non-linear relationships, clusters,
 and outliers.
 • Histograms on the diagonal of the pair plot show the distribution of individual
 numerical variables, highlighting any skewness or unusual patterns.
-6.1 Comments on the range of attributes
+# Comments on the range of attributes
 1. Director and Cast Information:
 Range: The number of unique directors and cast members in the dataset.
 Comments: The dataset likely includes a wide range of directors and actors, reflecting the
 diversity of the film industry. Analyzing this range can highlight prolific directors and actors, as
 well as collaborative networks.
-3. Duration (Minutes):
+# Duration (Minutes):
 Range: The minimum and maximum duration of movies in minutes.
 Comments: This attribute can vary widely, from short films to long feature films.
 Understanding the range helps in categorizing movies into short, medium, and long durations,
 and identifying any extreme outliers that might need further investigation.
-4. Release Year:
+# Release Year:
 Range: The earliest and latest release years of the movies in the dataset.
 Comments: The release years span a significant range, allowing for temporal analysis of movie
 trends. The range indicates the historical depth of the dataset and can be used to study how
 movie characteristics have evolved over time.
-5. Rating:
+# Rating:
 Range: The different types of ratings assigned to movies (e.g., G, PG, PG-13, R, etc.).
 Comments: The range of ratings reflects the target audience and content suitability of the
 movies. Analysing the distribution of ratings can provide insights into the types of movies
 produced and their intended audiences.
-6. Country:
+# Country:
 Range: The number of unique countries represented in the dataset.
 Comments: A wide range of countries indicates a diverse dataset with international
 representation. This range is crucial for understanding the global reach and cultural diversity of
 the movies.
-7. Type (Movie/TV Show):
+# Type (Movie/TV Show):
 Range: The count of each type (movies and TV shows).
 Comments: The distribution of movies versus TV shows can provide insights into the content
 strategy of the platform or dataset source. A balanced range suggests a diversified content
 offering.
-8. Date Added:
+# Date Added:
 Range: The earliest and latest dates when the movies were added to the platform.
 Comments: This range helps in understanding the platform's content acquisition timeline and
 growth. It can also indicate periods of high content addition activity.
-9. Duration:
+# Duration:
 Range: The range of durations (typically in string format indicating hours and minutes).
 Comments: When converted to numerical format, this range helps in analyzing the average
 length of movies and identifying any trends in movie duration over time.
-10. Description:
+# Description:
 Range: The length and content of movie descriptions.
 Comments: The range of description lengths can vary, with some being short and concise,
 while others are more detailed. Analysing these descriptions can provide insights into
 marketing and content summarization practices.
-6.2 Comments on the distribution of the variables and relationship between them:
+# Comments on the distribution of the variables and relationship between them:
 1. Distribution of Release Year
 • Histogram Analysis:
 The histogram of release years shows how the frequency of movie releases varies over time.
